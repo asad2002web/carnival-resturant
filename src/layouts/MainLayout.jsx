@@ -5,7 +5,7 @@ import Navbar from '../components/navbar/Navbar'
 
 const MainLayout = () => {
   return (
-    <div className='px-12 mx-auto'>
+    <div>
         <Navbar/>
         <Outlet/>
         <Footer/>
